@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Jump Game - https://leetcode.com/problems/jump-game/
 Approach: Traverse the array from right to left and keep track of the minimum index that can reach the end. If the current

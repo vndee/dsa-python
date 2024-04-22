@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Bubble Sort - https://www.hackerrank.com/challenges/ctci-bubble-sort
 Approach: Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements
@@ -6,6 +5,7 @@ and swaps them if they are in the wrong order.
 Time complexity: O(n^2)
 Space complexity: O(1)
 """
+
 
 def countSwaps(a):
     ans = 0
@@ -20,7 +20,7 @@ def countSwaps(a):
     print(f"Last Element: {a[-1]}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input().strip())
 
     a = list(map(int, input().rstrip().split()))

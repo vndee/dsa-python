@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Snapshot Array - https://leetcode.com/problems/snapshot-array/
 Approach: Use a dictionary to store the values of the array. When a snapshot is taken, store the snapshot id and the value of
@@ -11,7 +10,6 @@ Space complexity: O(n)
 
 
 class SnapshotArray:
-
     def __init__(self, length: int):
         self.d = {}
         self.snap_id = 0

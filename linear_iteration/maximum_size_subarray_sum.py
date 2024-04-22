@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Minimum Size Subarray Sum - https://leetcode.com/problems/minimum-size-subarray-sum
 Approach: Use two pointers to keep track of the left and right indices of the subarray. Initialize the left and right pointers

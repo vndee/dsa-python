@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Happy Number - https://leetcode.com/problems/happy-number/
 Approach: Use a set to store the sum of the squares of the digits of the number. If the sum is 1, then return True. If the sum is

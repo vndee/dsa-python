@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Word Pattern - https://leetcode.com/problems/word-pattern/
 Approach: Use two dictionaries to store the mapping of characters from the pattern to the words and vice versa. Traverse the pattern

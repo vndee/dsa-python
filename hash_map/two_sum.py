@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Two Sum - https://leetcode.com/problems/two-sum/
 Approach: Use a dictionary to store the index of the elements. Traverse the array and if the difference between the target

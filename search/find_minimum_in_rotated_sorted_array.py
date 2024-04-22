@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 Approach: Use binary search to find the pivot element. If the pivot element is not found, then the array is not rotated. The minimum

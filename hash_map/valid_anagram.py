@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Valid Anagram - https://leetcode.com/problems/valid-anagram/
 Approach: Use a dictionary to store the frequency of characters in the first string. Traverse the second string and if the character

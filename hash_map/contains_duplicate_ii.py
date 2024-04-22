@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Contains Duplicate II - https://leetcode.com/problems/contains-duplicate-ii/
 Approach: Use a dictionary to store the index of the elements. Traverse the array and if the difference between the current index

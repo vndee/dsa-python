@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Ransom Note - https://leetcode.com/problems/ransom-note/
 Approach: Use a dictionary to store the frequency of characters in the magazine. Traverse the ransom note and if the character
@@ -7,7 +6,6 @@ Time complexity: O(n)
 Space complexity: O(n)
 """
 
-from typing import List
 
 
 class Solution:
@@ -23,4 +21,3 @@ class Solution:
             d[c] -= 1
 
         return True
-

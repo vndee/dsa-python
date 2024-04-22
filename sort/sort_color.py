@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Sort Colors - https://leetcode.com/problems/sort-colors/
 Approach: Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements
@@ -8,6 +7,7 @@ Space complexity: O(1)
 """
 
 from typing import List
+
 
 class Solution:
     def sortColors(self, nums: List[int]) -> None:

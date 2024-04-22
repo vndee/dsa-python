@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Remove Duplicates from Sorted Array II - https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 Approach: Use three pointers to keep track of the current element, the next element and the position to insert the next

@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Best Time to Buy and Sell Stock II - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 Approach: Traverse the array and if the current element is greater than the previous element, then add the difference to the

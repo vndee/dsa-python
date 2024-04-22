@@ -35,8 +35,8 @@ def riddle(arr):
     return res
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     n = int(input())
 
@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
     res = riddle(arr)
 
-    fptr.write(' '.join(map(str, res)))
-    fptr.write('\n')
+    fptr.write(" ".join(map(str, res)))
+    fptr.write("\n")
 
     fptr.close()

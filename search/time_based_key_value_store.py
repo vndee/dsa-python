@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Time Based Key-Value Store - https://leetcode.com/problems/time-based-key-value-store/
 Approach: Use a dictionary to store the key and the list of values. For each key, store the timestamp and the value. To get the
@@ -10,7 +9,6 @@ Space complexity: O(n)
 
 
 class TimeMap:
-
     def __init__(self):
         self.d = {}
 

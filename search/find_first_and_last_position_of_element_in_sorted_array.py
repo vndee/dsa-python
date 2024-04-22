@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Find First and Last Position of Element in Sorted Array - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 Approach: Use binary search to find the leftmost and rightmost indices of the target element. Initialize the left and right pointers

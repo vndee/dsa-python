@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Isomorphic Strings - https://leetcode.com/problems/isomorphic-strings/
 Approach: Use two dictionaries to store the mapping of characters from string s to string t and vice versa. Traverse the strings

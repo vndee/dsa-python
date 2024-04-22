@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Find Right Interval - https://leetcode.com/problems/find-right-interval/
 Approach: Sort the intervals based on the start time. For each interval, use binary search to find the right interval. Initialize
@@ -18,7 +17,9 @@ from typing import List
 
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
-        intervals = [(interval[0], interval[1], i) for i, interval in enumerate(intervals)]
+        intervals = [
+            (interval[0], interval[1], i) for i, interval in enumerate(intervals)
+        ]
         intervals.sort(key=lambda x: x[0])
         ans = [-1] * len(intervals)
 

@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Two Sum II - Input array is sorted - https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 Approach: Use a dictionary to store the index of the elements. Traverse the array and if the difference between the target

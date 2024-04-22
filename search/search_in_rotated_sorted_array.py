@@ -1,4 +1,3 @@
-#!/bin/python3
 """
 Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
 Approach: Use binary search to find the pivot element. If the pivot element is not found, then the array is not rotated. If the
