@@ -7,7 +7,6 @@ Space complexity: O(n)
 """
 
 
-
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         d = {}
