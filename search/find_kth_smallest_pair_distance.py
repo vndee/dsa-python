@@ -24,7 +24,11 @@ class Solution(object):
             for i in range(m, n_max + 1, 1):
                 x = comb(freq[i] - freq[i - m - 1]) if i - m > 0 else comb(freq[i])
                 if m > 1 and i >= m + 1:
-                    x -= comb(freq[i - 1] - freq[i - m - 1]) if i - m > 0 else comb(freq[i - 1])
+                    x -= (
+                        comb(freq[i - 1] - freq[i - m - 1])
+                        if i - m > 0
+                        else comb(freq[i - 1])
+                    )
 
                 cnt = cnt + x
 
